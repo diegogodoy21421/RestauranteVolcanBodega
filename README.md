@@ -3,28 +3,13 @@
 Proyecto académico en **Java** para Android Studio. Implementa el requerimiento
 **RF-01 - Iniciar sesión** del Sistema de Gestión de Bodega.
 
-## Configuración
 
-- Lenguaje: Java
-- Arquitectura: MVVM
-- Persistencia: Room Database
-- Dispositivo solicitado: Pixel 5
-- Emulador: Android 11 (API 30)
-- `minSdk`: 30
-- `targetSdk`: 30
-- `compileSdk`: 35
+## Integrantes
 
-Si Android Studio solicita instalar el SDK 35, acepta la descarga. La aplicación
-se ejecuta normalmente en el emulador Pixel 5 con API 30.
-
-## Cómo abrir y ejecutar
-
-1. Descomprime el archivo ZIP.
-2. En Android Studio, selecciona **Open** y abre la carpeta
-   `RestauranteVolcanBodega`.
-3. Espera que finalice **Gradle Sync**.
-4. Crea o selecciona un emulador **Pixel 5 - API 30**.
-5. Presiona **Run app**.
+Diego Godoy
+Johan Cofre
+Adrian Anzoategui
+Jeremy Rodriguez
 
 ## Usuarios de prueba
 
@@ -70,7 +55,7 @@ util/
 ## Alcance
 
 Este ZIP entrega el módulo de login solicitado y deja preparado el panel para
-continuar con productos, movimientos y stock bajo. Todavía no implementa el MVP
+continuar con productos, movimientos y stock bajo. Todavía no se implementa el MVP
 completo de bodega.
 
 ## Estado de la versión
@@ -79,10 +64,3 @@ completo de bodega.
   panel de bienvenida.
 - Siguiente versión propuesta: catálogo de productos y consulta de stock.
 
-## Git sugerido
-
-```bash
-git init
-git add .
-git commit -m "Implementa login con Room y MVVM"
-```

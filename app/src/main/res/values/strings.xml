@@ -9,7 +9,7 @@
     <string name="password_hint">Contraseña</string>
     <string name="remember_session">Mantener sesión iniciada</string>
     <string name="login_button">INGRESAR</string>
-    <string name="demo_credentials">Demo: admin / admin123</string>
+    <string name="demo_credentials">Usuario de Prueba: admin / admin123</string>
     <string name="error_required_user">Ingresa tu usuario</string>
     <string name="error_required_password">Ingresa tu contraseña</string>
     <string name="error_credentials">Usuario o contraseña incorrectos</string>
