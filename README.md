@@ -73,6 +73,12 @@ Este ZIP entrega el módulo de login solicitado y deja preparado el panel para
 continuar con productos, movimientos y stock bajo. Todavía no implementa el MVP
 completo de bodega.
 
+## Estado de la versión
+
+- Versión 1.0: login funcional, validación de usuario activo, sesión opcional y
+  panel de bienvenida.
+- Siguiente versión propuesta: catálogo de productos y consulta de stock.
+
 ## Git sugerido
 
 ```bash
