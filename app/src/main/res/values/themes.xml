@@ -11,4 +11,21 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:colorAccent" tools:targetApi="l">@color/volcan_secondary</item>
     </style>
+
+    <style name="TableHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">105dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/volcan_text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TableCell">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">105dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/volcan_text_secondary</item>
+    </style>
 </resources>

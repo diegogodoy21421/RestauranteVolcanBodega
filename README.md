@@ -1,66 +1,67 @@
-# Restaurante Volcán SpA - Login Android
+# Restaurante Volcán SpA - Prototipo Android
 
-Proyecto académico en **Java** para Android Studio. Implementa el requerimiento
-**RF-01 - Iniciar sesión** del Sistema de Gestión de Bodega.
-
+Proyecto académico desarrollado en **Java** para Android Studio. Presenta un
+prototipo navegable del Sistema de Gestión de Bodega de Restaurante Volcán SpA.
 
 ## Integrantes
 
-Diego Godoy
-Johan Cofre
-Adrian Anzoategui
-Jeremy Rodriguez
+- Diego Godoy
+- Johan Cofre
+- Adrian Anzoategui
+- Jeremy Rodriguez
 
-## Usuarios de prueba
+## Acceso de demostración
 
-| Usuario | Contraseña | Rol | Estado |
-|---|---|---|---|
-| `admin` | `admin123` | Administrador | Activo |
-| `bodega` | `bodega123` | Bodega | Activo |
-| `inactivo` | `inactivo123` | Bodega | Inactivo |
+| Usuario | Contraseña | Rol |
+|---|---|---|
+| `admin` | `admin123` | Administrador |
 
-El último usuario sirve para demostrar la validación de cuentas inactivas.
+El acceso es una validación local simulada y **no utiliza base de datos**, de
+acuerdo con las instrucciones de la evaluación.
 
-## Funcionalidad incluida
-
-- Validación de campos obligatorios.
-- Búsqueda de usuario en Room.
-- Contraseñas comparadas mediante hash SHA-256.
-- Verificación de `activo = 1`.
-- Relación `ROL` 1:N `USUARIO`, igual al modelo entregado.
-- Opción **Mantener sesión iniciada** con `SharedPreferences`.
-- Pantalla posterior al login con nombre y rol.
-- Cierre de sesión.
-- Interfaz adaptable con `ConstraintLayout`, `LinearLayout`, `ScrollView`,
-  `CardView`, `ImageView`, `CheckBox`, `ProgressBar`, textos y botones.
-
-## Estructura principal
+## Flujo navegable
 
 ```text
-data/
-  AppDatabase.java
-  dao/UsuarioDao.java
-  entity/RolEntity.java
-  entity/UsuarioEntity.java
-  repository/LoginRepository.java
-ui/
-  login/LoginActivity.java
-  login/LoginViewModel.java
-  dashboard/DashboardActivity.java
-util/
-  HashUtils.java
-  SessionManager.java
+Presentación → Login → Menú principal
+                         ├─ Productos
+                         ├─ Movimientos
+                         └─ Control de stock
 ```
+
+Todos los botones principales están conectados a sus Activity correspondientes.
+
+## Activity incluidos
+
+- `WelcomeActivity`: presentación atractiva de la aplicación.
+- `LoginActivity`: validación visual con credenciales de demostración.
+- `DashboardActivity`: menú de acceso a los módulos.
+- `ProductsActivity`: catálogo de productos con filtro visual.
+- `MovementsActivity`: simulación de entradas y salidas.
+- `StockActivity`: capacidad, valoración y alertas de stock bajo.
+
+## Elementos de interfaz demostrados
+
+- Layouts: `ConstraintLayout`, `LinearLayout` y `TableLayout`.
+- Widgets: `CheckBox`, `RadioButton`, `ProgressBar`, `RatingBar` e `ImageView`.
+- Contenedores: `Spinner`, `RecyclerView`, `ScrollView` y `CardView`.
+- Otros elementos: `TextView`, `Button`, campos de texto y mensajes `Toast` y
+  `Snackbar`.
+
+## Prototipo visual
+
+El archivo `PROTOTIPO_VISUAL.png`, ubicado en la raíz del proyecto, corresponde
+al diseño visual solicitado para la presentación. Fue preparado como pieza de
+diseño independiente y no es una captura del Activity ejecutándose.
+
+## Configuración
+
+- Lenguaje: Java
+- minSdk: 30
+- targetSdk: 30
+- compileSdk: 35
+- Dispositivo recomendado: Pixel 5 con Android 11 (API 30)
 
 ## Alcance
 
-Este ZIP entrega el módulo de login solicitado y deja preparado el panel para
-continuar con productos, movimientos y stock bajo. Todavía no se implementa el MVP
-completo de bodega.
-
-## Estado de la versión
-
-- Versión 1.0: login funcional, validación de usuario activo, sesión opcional y
-  panel de bienvenida.
-- Siguiente versión propuesta: catálogo de productos y consulta de stock.
-
+Esta versión se concentra en diseño, navegación y uso de componentes Android.
+Los datos de productos y movimientos son demostrativos y no se almacenan.

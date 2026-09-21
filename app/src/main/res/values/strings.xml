@@ -3,28 +3,77 @@
     <string name="restaurant_name">Restaurante Volcán SpA</string>
     <string name="system_name">Sistema de gestión de bodega</string>
     <string name="logo_description">Logotipo de Restaurante Volcán</string>
+
+    <string name="welcome_title">Bodega Volcán</string>
+    <string name="welcome_subtitle">Control simple y visual de los insumos del restaurante</string>
+    <string name="welcome_features_title">Todo lo necesario en un solo lugar</string>
+    <string name="feature_inventory_title">Inventario organizado</string>
+    <string name="feature_inventory_detail">Consulta productos, categorías y disponibilidad.</string>
+    <string name="feature_movements_title">Movimientos claros</string>
+    <string name="feature_movements_detail">Registra entradas y salidas de manera rápida.</string>
+    <string name="start_button">COMENZAR</string>
+    <string name="academic_prototype_note">Prototipo académico · Programación Android</string>
+
     <string name="login_title">Iniciar sesión</string>
     <string name="login_subtitle">Ingresa tus credenciales para continuar</string>
     <string name="username_hint">Usuario</string>
     <string name="password_hint">Contraseña</string>
-    <string name="remember_session">Mantener sesión iniciada</string>
+    <string name="remember_session">Usar credenciales de demostración</string>
     <string name="login_button">INGRESAR</string>
     <string name="demo_credentials">Usuario de Prueba: admin / admin123</string>
     <string name="error_required_user">Ingresa tu usuario</string>
     <string name="error_required_password">Ingresa tu contraseña</string>
     <string name="error_credentials">Usuario o contraseña incorrectos</string>
-    <string name="error_inactive">Esta cuenta se encuentra inactiva</string>
-    <string name="error_database">No fue posible consultar la base de datos</string>
+
     <string name="dashboard_eyebrow">Restaurante Volcán SpA</string>
     <string name="welcome_default">¡Bienvenido!</string>
     <string name="welcome_name">¡Bienvenido, %1$s!</string>
     <string name="role_default">Rol: Usuario</string>
     <string name="role_label">Rol: %1$s</string>
-    <string name="summary_title">Panel de bodega</string>
-    <string name="summary_subtitle">El acceso fue validado correctamente con Room.</string>
+    <string name="demo_full_name">Administrador de Bodega</string>
+    <string name="demo_role">Administrador</string>
+    <string name="summary_title">Menú principal</string>
+    <string name="summary_subtitle">Selecciona el módulo que deseas visualizar.</string>
     <string name="products">Productos</string>
     <string name="movements">Movimientos</string>
-    <string name="module_next_stage">Módulo preparado para la siguiente etapa</string>
-    <string name="status_ready">PRÓXIMO</string>
+    <string name="stock_control">Control de stock</string>
+    <string name="products_module_detail">Catálogo y disponibilidad de insumos</string>
+    <string name="movements_module_detail">Entradas, salidas e historial</string>
+    <string name="stock_module_detail">Capacidad y alertas de inventario</string>
     <string name="logout">CERRAR SESIÓN</string>
+
+    <string name="products_title">Catálogo de productos</string>
+    <string name="products_subtitle">Prototipo visual del inventario disponible</string>
+    <string name="category_label">Categoría</string>
+    <string name="apply_filter">APLICAR FILTRO</string>
+    <string name="filter_applied">Filtro seleccionado: %1$s</string>
+    <string name="available">Disponible</string>
+    <string name="product_icon_description">Icono del producto</string>
+
+    <string name="movements_title">Gestión de movimientos</string>
+    <string name="movements_subtitle">Simulación de entradas y salidas de bodega</string>
+    <string name="movement_type">Tipo de movimiento</string>
+    <string name="entry">Entrada</string>
+    <string name="exit">Salida</string>
+    <string name="product_label">Producto</string>
+    <string name="quantity_hint">Cantidad</string>
+    <string name="register_movement">REGISTRAR MOVIMIENTO</string>
+    <string name="movement_demo_message">%1$s simulada correctamente</string>
+    <string name="recent_movements">Movimientos recientes</string>
+    <string name="table_product">Producto</string>
+    <string name="table_type">Tipo</string>
+    <string name="table_quantity">Cantidad</string>
+
+    <string name="stock_title">Estado del stock</string>
+    <string name="stock_subtitle">Resumen visual de capacidad y productos críticos</string>
+    <string name="warehouse_capacity">Capacidad utilizada</string>
+    <string name="capacity_value">72% de la capacidad total</string>
+    <string name="warehouse_rating">Evaluación del estado de bodega</string>
+    <string name="warehouse_rating_detail">Selecciona una valoración para el prototipo.</string>
+    <string name="rating_initial">Valoración: 4 de 5</string>
+    <string name="rating_value">Valoración: %1$.0f de 5</string>
+    <string name="critical_products">Productos con stock bajo</string>
+    <string name="review_alerts">REVISAR ALERTAS</string>
+    <string name="alerts_reviewed">Alertas revisadas en el prototipo</string>
+    <string name="back_to_menu">VOLVER AL MENÚ</string>
 </resources>

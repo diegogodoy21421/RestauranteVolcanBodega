@@ -8,7 +8,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import cl.santotomas.restaurantevolcan.R;
 import cl.santotomas.restaurantevolcan.databinding.ActivityDashboardBinding;
 import cl.santotomas.restaurantevolcan.ui.login.LoginActivity;
-import cl.santotomas.restaurantevolcan.util.SessionManager;
+import cl.santotomas.restaurantevolcan.ui.movements.MovementsActivity;
+import cl.santotomas.restaurantevolcan.ui.products.ProductsActivity;
+import cl.santotomas.restaurantevolcan.ui.stock.StockActivity;
 
 public class DashboardActivity extends AppCompatActivity {
 
@@ -16,7 +18,6 @@ public class DashboardActivity extends AppCompatActivity {
     public static final String EXTRA_ROLE_NAME = "extra_role_name";
 
     private ActivityDashboardBinding binding;
-    private SessionManager sessionManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,26 +25,29 @@ public class DashboardActivity extends AppCompatActivity {
         binding = ActivityDashboardBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        sessionManager = new SessionManager(this);
-
         String fullName = getIntent().getStringExtra(EXTRA_FULL_NAME);
         String roleName = getIntent().getStringExtra(EXTRA_ROLE_NAME);
 
         if (fullName == null) {
-            fullName = sessionManager.getFullName();
+            fullName = getString(R.string.demo_full_name);
         }
         if (roleName == null) {
-            roleName = sessionManager.getRoleName();
+            roleName = getString(R.string.demo_role);
         }
 
         binding.textWelcome.setText(getString(R.string.welcome_name, fullName));
         binding.textRole.setText(getString(R.string.role_label, roleName));
 
+        binding.cardProducts.setOnClickListener(view ->
+                startActivity(new Intent(this, ProductsActivity.class)));
+        binding.cardMovements.setOnClickListener(view ->
+                startActivity(new Intent(this, MovementsActivity.class)));
+        binding.cardStock.setOnClickListener(view ->
+                startActivity(new Intent(this, StockActivity.class)));
         binding.buttonLogout.setOnClickListener(view -> logout());
     }
 
     private void logout() {
-        sessionManager.clear();
         Intent intent = new Intent(this, LoginActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
