@@ -31,8 +31,8 @@
   <circle cx="1750" cy="140" r="220" fill="#e66b32" opacity=".08"/>
   <circle cx="140" cy="980" r="260" fill="#a3261f" opacity=".06"/>
 
-  <text x="110" y="85" class="title">Prototipo visual · Bodega Volcán</text>
-  <text x="110" y="122" class="subtitle">Restaurante Volcán SpA · Flujo principal de la aplicación Android</text>
+  <text x="110" y="85" class="title">Prototipo visual · Volcán Waffles &amp; Café</text>
+  <text x="110" y="122" class="subtitle">Sistema de bodega para ingredientes, cafetería y materiales · Ovalle</text>
   <rect x="110" y="146" width="1700" height="2" fill="#e6c9be"/>
 
   <!-- Screen 1 -->
@@ -46,15 +46,16 @@
     <circle cx="165" cy="148" r="58" fill="#d54d30"/>
     <path d="M131 176 L165 103 L199 176 Z" fill="#fff"/>
     <path d="M147 176 L165 138 L183 176 Z" fill="#ffd9ca"/>
-    <text x="165" y="245" text-anchor="middle" class="phone-title-white">Bodega Volcán</text>
-    <text x="165" y="275" text-anchor="middle" class="body-white">Control simple y visual de los</text>
-    <text x="165" y="295" text-anchor="middle" class="body-white">insumos del restaurante</text>
+    <text x="165" y="235" text-anchor="middle" class="phone-title-white">Volcán Waffles</text>
+    <text x="165" y="263" text-anchor="middle" class="phone-title-white">&amp; Café</text>
+    <text x="165" y="291" text-anchor="middle" class="body-white">Ingredientes, cafetería</text>
+    <text x="165" y="311" text-anchor="middle" class="body-white">y materiales del local</text>
     <text x="32" y="435" class="card-title" style="font-size:18px">Todo en un solo lugar</text>
     <rect x="30" y="460" width="270" height="88" rx="16" fill="#fff" stroke="#eeddd7"/>
     <circle cx="68" cy="504" r="25" fill="#fce8e1"/>
     <rect x="57" y="491" width="22" height="26" rx="3" fill="#a3261f"/>
     <text x="105" y="497" class="card-title">Inventario organizado</text>
-    <text x="105" y="520" class="small">Productos y disponibilidad</text>
+    <text x="105" y="520" class="small">Ingredientes y disponibilidad</text>
     <rect x="30" y="562" width="270" height="88" rx="16" fill="#fff" stroke="#eeddd7"/>
     <circle cx="68" cy="606" r="25" fill="#fce8e1"/>
     <path d="M55 606 H81 M68 593 V619" stroke="#a3261f" stroke-width="6" stroke-linecap="round"/>
@@ -72,8 +73,8 @@
     <rect x="112" y="48" width="106" height="17" rx="9" fill="#1d1716"/>
     <circle cx="165" cy="145" r="45" fill="#a3261f"/>
     <path d="M138 169 L165 111 L192 169 Z" fill="#fff"/>
-    <text x="165" y="220" text-anchor="middle" class="phone-title">Restaurante Volcán</text>
-    <text x="165" y="245" text-anchor="middle" class="body">Sistema de gestión de bodega</text>
+    <text x="165" y="220" text-anchor="middle" class="card-title" style="font-size:20px">Volcán Waffles &amp; Café</text>
+    <text x="165" y="245" text-anchor="middle" class="body">Gestión de insumos y bodega</text>
     <rect x="28" y="282" width="274" height="350" rx="20" fill="#fff" stroke="#eeddd7"/>
     <text x="50" y="325" class="phone-title" font-size="20">Iniciar sesión</text>
     <text x="50" y="350" class="body">Ingresa tus credenciales</text>
@@ -98,7 +99,7 @@
     <rect x="112" y="48" width="106" height="17" rx="9" fill="#1d1716"/>
     <rect x="12" y="40" width="306" height="210" rx="29" fill="url(#hero)"/>
     <rect x="12" y="215" width="306" height="35" fill="url(#hero)"/>
-    <text x="35" y="100" class="body-white">RESTAURANTE VOLCÁN SPA</text>
+    <text x="35" y="100" class="body-white">VOLCÁN WAFFLES &amp; CAFÉ</text>
     <text x="35" y="145" class="phone-title-white">¡Bienvenido!</text>
     <text x="35" y="176" class="body-white">Rol: Administrador</text>
     <text x="30" y="298" class="phone-title" font-size="20">Menú principal</text>
@@ -106,8 +107,8 @@
     <rect x="28" y="350" width="274" height="92" rx="16" fill="#fff" stroke="#eeddd7"/>
     <circle cx="72" cy="396" r="25" fill="#fce8e1"/>
     <rect x="61" y="383" width="22" height="26" rx="3" fill="#a3261f"/>
-    <text x="110" y="391" class="card-title">Productos</text>
-    <text x="110" y="415" class="small">Catálogo y disponibilidad</text>
+    <text x="110" y="391" class="card-title">Productos e insumos</text>
+    <text x="110" y="415" class="small">Ingredientes y materiales</text>
     <text x="280" y="406" text-anchor="middle" font-family="Arial" font-size="30" fill="#a3261f">›</text>
     <rect x="28" y="456" width="274" height="92" rx="16" fill="#fff" stroke="#eeddd7"/>
     <circle cx="72" cy="502" r="25" fill="#fce8e1"/>
@@ -131,8 +132,8 @@
     <rect x="0" y="28" width="330" height="760" rx="38" fill="#1d1716" filter="url(#shadow)"/>
     <rect x="12" y="40" width="306" height="736" rx="29" fill="#fff8f5"/>
     <rect x="112" y="48" width="106" height="17" rx="9" fill="#1d1716"/>
-    <text x="30" y="110" class="card-title" style="font-size:19px">Catálogo de productos</text>
-    <text x="30" y="136" class="body">Inventario disponible</text>
+    <text x="30" y="110" class="card-title" style="font-size:19px">Inventario de insumos</text>
+    <text x="30" y="136" class="body">Waffles, café y atención</text>
     <rect x="28" y="165" width="274" height="130" rx="16" fill="#fff" stroke="#eeddd7"/>
     <text x="45" y="198" class="card-title">Categoría</text>
     <rect x="45" y="212" width="240" height="35" rx="7" fill="#fff8f5" stroke="#a98e86"/>
@@ -143,8 +144,8 @@
       <rect width="274" height="92" rx="14" fill="#fff"/>
       <circle cx="38" cy="46" r="22" fill="#fce8e1"/>
       <rect x="28" y="34" width="20" height="24" rx="3" fill="#a3261f"/>
-      <text x="75" y="34" class="card-title">Harina</text>
-      <text x="75" y="55" class="small">Insumos secos</text>
+      <text x="75" y="34" class="card-title">Harina pastelera</text>
+      <text x="75" y="55" class="small">Repostería</text>
       <text x="75" y="75" class="small" fill="#a3261f">Stock: 18 kg</text>
       <rect x="232" y="36" width="16" height="16" rx="3" fill="#a3261f"/>
     </g>
@@ -152,8 +153,8 @@
       <rect width="274" height="92" rx="14" fill="#fff"/>
       <circle cx="38" cy="46" r="22" fill="#fce8e1"/>
       <rect x="28" y="34" width="20" height="24" rx="3" fill="#a3261f"/>
-      <text x="75" y="34" class="card-title">Tomate</text>
-      <text x="75" y="55" class="small">Verduras</text>
+      <text x="75" y="34" class="card-title">Frutilla</text>
+      <text x="75" y="55" class="small">Frutas</text>
       <text x="75" y="75" class="small" fill="#a3261f">Stock: 12 kg</text>
       <rect x="232" y="36" width="16" height="16" rx="3" fill="#a3261f"/>
     </g>
@@ -161,9 +162,9 @@
       <rect width="274" height="92" rx="14" fill="#fff"/>
       <circle cx="38" cy="46" r="22" fill="#fce8e1"/>
       <rect x="28" y="34" width="20" height="24" rx="3" fill="#a3261f"/>
-      <text x="75" y="34" class="card-title">Queso</text>
-      <text x="75" y="55" class="small">Refrigerados</text>
-      <text x="75" y="75" class="small" fill="#a3261f">Stock: 2 kg · Bajo</text>
+      <text x="75" y="34" class="card-title">Helado de vainilla</text>
+      <text x="75" y="55" class="small">Lácteos y refrigerados</text>
+      <text x="75" y="75" class="small" fill="#a3261f">Stock: 2 baldes · Bajo</text>
       <rect x="232" y="36" width="16" height="16" rx="3" fill="#fff" stroke="#a3261f"/>
     </g>
     <rect x="28" y="676" width="274" height="48" rx="12" fill="none" stroke="#a3261f" stroke-width="2"/>

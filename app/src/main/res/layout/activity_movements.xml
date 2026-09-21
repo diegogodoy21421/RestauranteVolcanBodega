@@ -151,19 +151,19 @@
                     </TableRow>
 
                     <TableRow>
-                        <TextView style="@style/TableCell" android:text="Harina" />
+                        <TextView style="@style/TableCell" android:text="Harina pastelera" />
                         <TextView style="@style/TableCell" android:text="Entrada" />
                         <TextView style="@style/TableCell" android:text="10 kg" />
                     </TableRow>
 
                     <TableRow android:background="#FFF2ED">
-                        <TextView style="@style/TableCell" android:text="Tomate" />
+                        <TextView style="@style/TableCell" android:text="Frutilla" />
                         <TextView style="@style/TableCell" android:text="Salida" />
                         <TextView style="@style/TableCell" android:text="3 kg" />
                     </TableRow>
 
                     <TableRow>
-                        <TextView style="@style/TableCell" android:text="Aceite" />
+                        <TextView style="@style/TableCell" android:text="Café en grano" />
                         <TextView style="@style/TableCell" android:text="Entrada" />
                         <TextView style="@style/TableCell" android:text="4 un." />
                     </TableRow>

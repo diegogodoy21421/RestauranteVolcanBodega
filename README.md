@@ -1,7 +1,15 @@
-# Restaurante Volcán SpA - Prototipo Android
+# Volcán Waffles & Café - Prototipo Android
 
 Proyecto académico desarrollado en **Java** para Android Studio. Presenta un
-prototipo navegable del Sistema de Gestión de Bodega de Restaurante Volcán SpA.
+prototipo navegable del Sistema de Gestión de Bodega de **Volcán Waffles & Café**,
+empresa de Ovalle asignada para el trabajo con el nombre "Restaurante Volcán SpA".
+
+## Identidad de la empresa
+
+- Nombre indicado por el docente: **Restaurante Volcán SpA**.
+- Nombre comercial utilizado en el prototipo: **Volcán Waffles & Café**.
+- Enfoque de la solución: gestión interna de ingredientes, insumos de cafetería,
+  toppings, productos refrigerados y materiales de atención.
 
 ## Integrantes
 
@@ -35,7 +43,7 @@ Todos los botones principales están conectados a sus Activity correspondientes.
 - `WelcomeActivity`: presentación atractiva de la aplicación.
 - `LoginActivity`: validación visual con credenciales de demostración.
 - `DashboardActivity`: menú de acceso a los módulos.
-- `ProductsActivity`: catálogo de productos con filtro visual.
+- `ProductsActivity`: inventario de ingredientes e insumos con filtro visual.
 - `MovementsActivity`: simulación de entradas y salidas.
 - `StockActivity`: capacidad, valoración y alertas de stock bajo.
 
@@ -64,4 +72,6 @@ diseño independiente y no es una captura del Activity ejecutándose.
 ## Alcance
 
 Esta versión se concentra en diseño, navegación y uso de componentes Android.
-Los datos de productos y movimientos son demostrativos y no se almacenan.
+Los datos de productos y movimientos son demostrativos y no se almacenan. Las
+categorías y ejemplos fueron adaptados al rubro real de waffles y cafetería para
+que el prototipo pueda evolucionar posteriormente junto a la empresa.

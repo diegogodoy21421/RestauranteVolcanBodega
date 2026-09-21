@@ -146,14 +146,14 @@
                 android:layout_marginTop="8dp"
                 android:buttonTint="@color/volcan_primary"
                 android:checked="true"
-                android:text="Queso · 2 kg restantes" />
+                android:text="@string/critical_ice_cream" />
 
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="@color/volcan_primary"
                 android:checked="true"
-                android:text="Aceite vegetal · 4 unidades" />
+                android:text="@string/critical_chocolate" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/buttonReviewAlerts"

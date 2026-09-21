@@ -28,10 +28,10 @@ public class ProductsActivity extends AppCompatActivity {
         binding.spinnerCategory.setAdapter(categories);
 
         ProductAdapter adapter = new ProductAdapter(Arrays.asList(
-                new ProductAdapter.ProductItem("Harina", "Insumos secos", "Stock: 18 kg", true),
-                new ProductAdapter.ProductItem("Tomate", "Verduras", "Stock: 12 kg", true),
-                new ProductAdapter.ProductItem("Aceite vegetal", "Abarrotes", "Stock: 4 unidades", true),
-                new ProductAdapter.ProductItem("Queso", "Refrigerados", "Stock: 2 kg · Bajo", false)
+                new ProductAdapter.ProductItem("Harina pastelera", "Repostería", "Stock: 18 kg", true),
+                new ProductAdapter.ProductItem("Frutilla", "Frutas", "Stock: 12 kg", true),
+                new ProductAdapter.ProductItem("Salsa de chocolate", "Toppings y salsas", "Stock: 4 botellas", true),
+                new ProductAdapter.ProductItem("Helado de vainilla", "Lácteos y refrigerados", "Stock: 2 baldes · Bajo", false)
         ));
         binding.recyclerProducts.setLayoutManager(new LinearLayoutManager(this));
         binding.recyclerProducts.setAdapter(adapter);

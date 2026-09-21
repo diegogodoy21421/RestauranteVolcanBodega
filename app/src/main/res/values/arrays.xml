@@ -2,16 +2,19 @@
 <resources>
     <string-array name="product_categories">
         <item>Todas las categorías</item>
-        <item>Insumos secos</item>
-        <item>Verduras</item>
-        <item>Abarrotes</item>
-        <item>Refrigerados</item>
+        <item>Repostería</item>
+        <item>Frutas</item>
+        <item>Toppings y salsas</item>
+        <item>Lácteos y refrigerados</item>
+        <item>Cafetería y bebidas</item>
+        <item>Envases y desechables</item>
     </string-array>
 
     <string-array name="movement_products">
-        <item>Harina</item>
-        <item>Tomate</item>
-        <item>Aceite vegetal</item>
-        <item>Queso</item>
+        <item>Harina pastelera</item>
+        <item>Frutilla</item>
+        <item>Salsa de chocolate</item>
+        <item>Helado de vainilla</item>
+        <item>Café en grano</item>
     </string-array>
 </resources>

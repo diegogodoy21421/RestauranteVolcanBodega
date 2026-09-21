@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">Volcán Bodega</string>
-    <string name="restaurant_name">Restaurante Volcán SpA</string>
-    <string name="system_name">Sistema de gestión de bodega</string>
-    <string name="logo_description">Logotipo de Restaurante Volcán</string>
+    <string name="restaurant_name">Volcán Waffles &amp; Café</string>
+    <string name="system_name">Gestión de insumos y bodega</string>
+    <string name="logo_description">Identidad visual de Volcán Waffles y Café</string>
 
-    <string name="welcome_title">Bodega Volcán</string>
-    <string name="welcome_subtitle">Control simple y visual de los insumos del restaurante</string>
+    <string name="welcome_title">Volcán Waffles &amp; Café</string>
+    <string name="welcome_subtitle">Control simple y visual de ingredientes, cafetería y materiales</string>
     <string name="welcome_features_title">Todo lo necesario en un solo lugar</string>
     <string name="feature_inventory_title">Inventario organizado</string>
-    <string name="feature_inventory_detail">Consulta productos, categorías y disponibilidad.</string>
+    <string name="feature_inventory_detail">Consulta ingredientes, toppings, bebidas y disponibilidad.</string>
     <string name="feature_movements_title">Movimientos claros</string>
     <string name="feature_movements_detail">Registra entradas y salidas de manera rápida.</string>
     <string name="start_button">COMENZAR</string>
@@ -25,7 +25,7 @@
     <string name="error_required_password">Ingresa tu contraseña</string>
     <string name="error_credentials">Usuario o contraseña incorrectos</string>
 
-    <string name="dashboard_eyebrow">Restaurante Volcán SpA</string>
+    <string name="dashboard_eyebrow">Volcán Waffles &amp; Café</string>
     <string name="welcome_default">¡Bienvenido!</string>
     <string name="welcome_name">¡Bienvenido, %1$s!</string>
     <string name="role_default">Rol: Usuario</string>
@@ -34,16 +34,16 @@
     <string name="demo_role">Administrador</string>
     <string name="summary_title">Menú principal</string>
     <string name="summary_subtitle">Selecciona el módulo que deseas visualizar.</string>
-    <string name="products">Productos</string>
+    <string name="products">Productos e insumos</string>
     <string name="movements">Movimientos</string>
     <string name="stock_control">Control de stock</string>
-    <string name="products_module_detail">Catálogo y disponibilidad de insumos</string>
+    <string name="products_module_detail">Ingredientes y materiales del local</string>
     <string name="movements_module_detail">Entradas, salidas e historial</string>
     <string name="stock_module_detail">Capacidad y alertas de inventario</string>
     <string name="logout">CERRAR SESIÓN</string>
 
-    <string name="products_title">Catálogo de productos</string>
-    <string name="products_subtitle">Prototipo visual del inventario disponible</string>
+    <string name="products_title">Inventario de insumos</string>
+    <string name="products_subtitle">Ingredientes y materiales para waffles y cafetería</string>
     <string name="category_label">Categoría</string>
     <string name="apply_filter">APLICAR FILTRO</string>
     <string name="filter_applied">Filtro seleccionado: %1$s</string>
@@ -73,6 +73,8 @@
     <string name="rating_initial">Valoración: 4 de 5</string>
     <string name="rating_value">Valoración: %1$.0f de 5</string>
     <string name="critical_products">Productos con stock bajo</string>
+    <string name="critical_ice_cream">Helado de vainilla · 2 baldes restantes</string>
+    <string name="critical_chocolate">Salsa de chocolate · 4 botellas</string>
     <string name="review_alerts">REVISAR ALERTAS</string>
     <string name="alerts_reviewed">Alertas revisadas en el prototipo</string>
     <string name="back_to_menu">VOLVER AL MENÚ</string>

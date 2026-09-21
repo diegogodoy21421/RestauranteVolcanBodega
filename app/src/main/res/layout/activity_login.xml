@@ -47,9 +47,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="18dp"
                 android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:maxLines="2"
                 android:text="@string/restaurant_name"
                 android:textColor="@color/volcan_text_primary"
-                android:textSize="26sp"
+                android:textSize="23sp"
                 android:textStyle="bold" />
 
             <TextView
