@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Volcán Bodega</string>
+    <string name="restaurant_name">Restaurante Volcán SpA</string>
+    <string name="system_name">Sistema de gestión de bodega</string>
+    <string name="logo_description">Logotipo de Restaurante Volcán</string>
+    <string name="login_title">Iniciar sesión</string>
+    <string name="login_subtitle">Ingresa tus credenciales para continuar</string>
+    <string name="username_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="remember_session">Mantener sesión iniciada</string>
+    <string name="login_button">INGRESAR</string>
+    <string name="demo_credentials">Demo: admin / admin123</string>
+    <string name="error_required_user">Ingresa tu usuario</string>
+    <string name="error_required_password">Ingresa tu contraseña</string>
+    <string name="error_credentials">Usuario o contraseña incorrectos</string>
+    <string name="error_inactive">Esta cuenta se encuentra inactiva</string>
+    <string name="error_database">No fue posible consultar la base de datos</string>
+    <string name="dashboard_eyebrow">Restaurante Volcán SpA</string>
+    <string name="welcome_default">¡Bienvenido!</string>
+    <string name="welcome_name">¡Bienvenido, %1$s!</string>
+    <string name="role_default">Rol: Usuario</string>
+    <string name="role_label">Rol: %1$s</string>
+    <string name="summary_title">Panel de bodega</string>
+    <string name="summary_subtitle">El acceso fue validado correctamente con Room.</string>
+    <string name="products">Productos</string>
+    <string name="movements">Movimientos</string>
+    <string name="module_next_stage">Módulo preparado para la siguiente etapa</string>
+    <string name="status_ready">PRÓXIMO</string>
+    <string name="logout">CERRAR SESIÓN</string>
+</resources>
